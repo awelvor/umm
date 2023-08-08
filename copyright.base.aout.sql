@@ -91,49 +91,49 @@ execute  update_copyrightfr using @right, @comment, @uid0;
 execute  update_copyrightle using @right, @uid0;
 /* 2023-08-13 */
 set @uid0 = @base +13   ;
-set @right = "";
-set @comment="";
+set @right = "CC0/wikimedia";
+set @comment="Détail de la Vierge à l'Enfant avec les deux saints Jean, 1484-1485, Gemäldegalerie, Berlin.";
 
 execute  update_copyrightfr using @right, @comment, @uid0;
 execute  update_copyrightle using @right, @uid0;
 /* 2023-08-14 */
 set @uid0 = @base + 14  ;
-set @right = "";
+set @right = "iStock/Getty Images Plus/FotoMaximum";
 set @comment="";
 
 execute  update_copyrightfr using @right, @comment, @uid0;
 execute  update_copyrightle using @right, @uid0;
 /* 2023-08-15 */
 set @uid0 = @base + 15  ;
-set @right = "";
-set @comment="";
+set @right = "CC0/wikimedia";
+set @comment="Détail de L'Assomption de la Vierge par Nicolas Poussin, 1631.";
 
 execute  update_copyrightfr using @right, @comment, @uid0;
 execute  update_copyrightle using @right, @uid0;
 /* 2023-08-16 */
 set @uid0 = @base +16   ;
-set @right = "";
+set @right = "iStock/Getty Images Plus/Germano Poli";
 set @comment="";
 
 execute  update_copyrightfr using @right, @comment, @uid0;
 execute  update_copyrightle using @right, @uid0;
 /* 2023-08-17 */
 set @uid0 = @base + 17  ;
-set @right = "";
+set @right = "iStock/Getty Images Plus/Tinnakorn Jorruang";
 set @comment="";
 
 execute  update_copyrightfr using @right, @comment, @uid0;
 execute  update_copyrightle using @right, @uid0;
 /* 2023-08-18 */
 set @uid0 = @base + 18  ;
-set @right = "";
+set @right = "iStock/Getty Images Plus/nu1983";
 set @comment="";
 
 execute  update_copyrightfr using @right, @comment, @uid0;
 execute  update_copyrightle using @right, @uid0;
 /* 2023-08-19 */
 set @uid0 = @base + 19  ;
-set @right = "";
+set @right = "Unsplash/Michel Grolet";
 set @comment="";
 
 execute  update_copyrightfr using @right, @comment, @uid0;
