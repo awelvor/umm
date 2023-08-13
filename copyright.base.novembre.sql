@@ -3,223 +3,216 @@
 
 prepare update_copyrightfr from "update tt_content set rowDescription=concat(?,' ',?) where pid=?  and sys_language_uid=0 limit 1;";
 prepare update_copyrightle from "update tt_content set rowDescription=? where pid=?  and sys_language_uid>0 limit 7;";
-set @base = 150770;
+set @base = 150801;
 
-/* 2023-08-01 */
+/* 2023-11-01 */
 set @uid0 = @base +   1;
-set @right = "iStock/Getty Images Plus/SbytovaMN";
+set @right = "";
 set @comment="";
 
 execute  update_copyrightfr using @right, @comment, @uid0;
 execute  update_copyrightle using @right, @uid0;
-/* 2023-08-02 */
+/* 2023-11-02 */
 set @uid0 = @base +   2;
-set @right = "CC BY-SA 3.0/DC. ";
-set @comment="Statue de la Vierge à Bon-Encontre.";
+set @right = "";
+set @comment="";
 
 execute  update_copyrightfr using @right, @comment, @uid0;
 execute  update_copyrightle using @right, @uid0;
-/* 2023-08-03 */
+/* 2023-11-03 */
 set @uid0 = @base +  3 ;
-set @right = "CC0/Wilson44691. ";
-set @comment="Vue de l'église de la Dormition, Jérusalem.";
+set @right = "";
+set @comment="";
 
 execute  update_copyrightfr using @right, @comment, @uid0;
 execute  update_copyrightle using @right, @uid0;
-/* 2023-08-04 */
+/* 2023-11-04 */
 set @uid0 = @base + 4  ;
-set @right = "CC BY-SA 3.0/Kippi70. ";
-set @comment="Vue de l'église Saint-Étienne,  Beit Gemal.";
+set @right = "";
+set @comment="";
 
 execute  update_copyrightfr using @right, @comment, @uid0;
 execute  update_copyrightle using @right, @uid0;
-/* 2023-08-05 */
+/* 2023-11-05 */
 set @uid0 = @base + 5  ;
-set @right = "iStock/Getty Images Plus/Boonyachoat";
+set @right = "";
 set @comment="";
 
 execute  update_copyrightfr using @right, @comment, @uid0;
 execute  update_copyrightle using @right, @uid0;
-/* 2023-08-06 */
+/* 2023-11-06 */
 set @uid0 = @base + 6  ;
-set @right = "CC0/wikimedia. ";
-set @comment="Icône de Grégoire Palamas.";
+set @right = "";
+set @comment="";
 
 execute  update_copyrightfr using @right, @comment, @uid0;
 execute  update_copyrightle using @right, @uid0;
-/* 2023-08-07 */
+/* 2023-11-07 */
 set @uid0 = @base +  7 ;
-set @right = "Unsplash/Rosie Sun";
+set @right = "";
 set @comment="";
 
 execute  update_copyrightfr using @right, @comment, @uid0;
 execute  update_copyrightle using @right, @uid0;
-/* 2023-08-08 */
+/* 2023-11-08 */
 set @uid0 = @base +  8 ;
-set @right = "CC BY-SA 3.0/ Daniel Villafruela. ";
-set @comment="Détail de Saint Dominique recevant le Rosaire des mains de Notre-Dame (xviie siècle), anonyme, église Sainte-Marie de Saint-Étienne.";
+set @right = "";
+set @comment="";
 
 execute  update_copyrightfr using @right, @comment, @uid0;
 execute  update_copyrightle using @right, @uid0;
-/* 2023-08-09 */
+/* 2023-11-09 */
 set @uid0 = @base +  9 ;
-set @right = "Unsplash/Mateus Campos Felipe";
+set @right = "";
 set @comment="";
 
 execute  update_copyrightfr using @right, @comment, @uid0;
 execute  update_copyrightle using @right, @uid0;
-/* 2023-08-10 */
+/* 2023-11-10 */
 set @uid0 = @base +10;
-set @right = "iStock/Getty Images Plus/Diego Fiore. ";
-set @comment="Notre-Dame-du-Liban, Harissa.";
+set @right = "";
+set @comment="";
 
 execute  update_copyrightfr using @right, @comment, @uid0;
 execute  update_copyrightle using @right, @uid0;
-/* 2023-08-11 */
+/* 2023-11-11 */
 set @uid0 = @base +11   ;
-set @right = "Unsplash/Pedro Lima";
+set @right = "";
 set @comment="";
 
 execute  update_copyrightfr using @right, @comment, @uid0;
 execute  update_copyrightle using @right, @uid0;
-/* 2023-08-12 */
+/* 2023-11-12 */
 set @uid0 = @base + 12  ;
-set @right = "Unsplash/Jennifer Latuperisa-Andresen";
+set @right = "";
 set @comment="";
 
 execute  update_copyrightfr using @right, @comment, @uid0;
 execute  update_copyrightle using @right, @uid0;
-/* 2023-08-13 */
+/* 2023-11-13 */
 set @uid0 = @base +13   ;
-set @right = "CC0/wikimedia";
-set @comment="Détail de la Vierge à l'Enfant avec les deux saints Jean, 1484-1485, Gemäldegalerie, Berlin.";
+set @right = "";
+set @comment="";
 
 execute  update_copyrightfr using @right, @comment, @uid0;
 execute  update_copyrightle using @right, @uid0;
-/* 2023-08-14 */
+/* 2023-11-14 */
 set @uid0 = @base + 14  ;
-set @right = "iStock/Getty Images Plus/FotoMaximum";
+set @right = "";
 set @comment="";
 
 execute  update_copyrightfr using @right, @comment, @uid0;
 execute  update_copyrightle using @right, @uid0;
-/* 2023-08-15 */
+/* 2023-11-15 */
 set @uid0 = @base + 15  ;
-set @right = "CC0/wikimedia";
-set @comment="Détail de L'Assomption de la Vierge par Nicolas Poussin, 1631.";
+set @right = "";
+set @comment="";
 
 execute  update_copyrightfr using @right, @comment, @uid0;
 execute  update_copyrightle using @right, @uid0;
-/* 2023-08-16 */
+/* 2023-11-16 */
 set @uid0 = @base +16   ;
-set @right = "iStock/Getty Images Plus/Germano Poli";
+set @right = "";
 set @comment="";
 
 execute  update_copyrightfr using @right, @comment, @uid0;
 execute  update_copyrightle using @right, @uid0;
-/* 2023-08-17 */
+/* 2023-11-17 */
 set @uid0 = @base + 17  ;
-set @right = "iStock/Getty Images Plus/Tinnakorn Jorruang";
+set @right = "";
 set @comment="";
 
 execute  update_copyrightfr using @right, @comment, @uid0;
 execute  update_copyrightle using @right, @uid0;
-/* 2023-08-18 */
+/* 2023-11-18 */
 set @uid0 = @base + 18  ;
-set @right = "iStock/Getty Images Plus/nu1983";
+set @right = "";
 set @comment="";
 
 execute  update_copyrightfr using @right, @comment, @uid0;
 execute  update_copyrightle using @right, @uid0;
-/* 2023-08-19 */
+/* 2023-11-19 */
 set @uid0 = @base + 19  ;
-set @right = "Unsplash/Michel Grolet";
+set @right = "";
 set @comment="";
 
 execute  update_copyrightfr using @right, @comment, @uid0;
 execute  update_copyrightle using @right, @uid0;
-/* 2023-08-20 */
+/* 2023-11-20 */
 set @uid0 = @base + 20  ;
-set @right = "Unsplash/Gonzalo Kenny";
+set @right = "";
 set @comment="";
 
 execute  update_copyrightfr using @right, @comment, @uid0;
 execute  update_copyrightle using @right, @uid0;
-/* 2023-08-21 */
+/* 2023-11-21 */
 set @uid0 = @base + 21  ;
-set @right = "CC BY 4.0/Jean-Paul Grandmont";
-set @comment="Détail de la Madonna della strada, église du Gesú, Rome.";
+set @right = "";
+set @comment="";
 
 execute  update_copyrightfr using @right, @comment, @uid0;
 execute  update_copyrightle using @right, @uid0;
-/* 2023-08-22 */
+/* 2023-11-22 */
 set @uid0 = @base + 22  ;
-set @right = "iStock/Getty Images Plus/Tuna Tura";
+set @right = "";
 set @comment="";
 
 execute  update_copyrightfr using @right, @comment, @uid0;
 execute  update_copyrightle using @right, @uid0;
-/* 2023-08-23 */
+/* 2023-11-23 */
 set @uid0 = @base + 23  ;
-set @right = "Unsplash/Joshua Davis";
+set @right = "";
 set @comment="";
 
 execute  update_copyrightfr using @right, @comment, @uid0;
 execute  update_copyrightle using @right, @uid0;
-/* 2023-08-24 */
+/* 2023-11-24 */
 set @uid0 = @base + 24  ;
-set @right = "Unsplash/Chelsea Shapouri";
+set @right = "";
 set @comment="";
 
 execute  update_copyrightfr using @right, @comment, @uid0;
 execute  update_copyrightle using @right, @uid0;
-/* 2023-08-25 */
+/* 2023-11-25 */
 set @uid0 = @base + 25  ;
-set @right = "CC BY 2.0/Kancelaria Sejmu / Krzysztof Kurek";
-set @comment="Vierge noire de Jasna Góra.";
-
-execute  update_copyrightfr using @right, @comment, @uid0;
-execute  update_copyrightle using @right, @uid0;
-/* 2023-08-26 */
-set @uid0 = @base +  26 ;
-set @right = "CC BY-SA 3.0 pl/Rafał Peplinski";
-set @comment="Sanctuaire de Jasna Góra.";
-
-execute  update_copyrightfr using @right, @comment, @uid0;
-execute  update_copyrightle using @right, @uid0;
-/* 2023-08-27 */
-set @uid0 = @base + 27  ;
-set @right = "CC0/wikimedia";
-set @comment="Lucie Dos Santos en 1917.";
-
-execute  update_copyrightfr using @right, @comment, @uid0;
-execute  update_copyrightle using @right, @uid0;
-/* 2023-08-28 */
-set @uid0 = @base + 28  ;
-set @right = "CC0/wikimedia";
-set @comment="Détail de saint Ambroise de Milan dans le tableau Ambroise et l'empereur Théodore de Antoine Van Dyck, XVIIe siècle.";
-
-execute  update_copyrightfr using @right, @comment, @uid0;
-execute  update_copyrightle using @right, @uid0;
-/* 2023-08-29 */
-set @uid0 = @base + 29  ;
-set @right = "CC BY 1.0/Jim l'Auvergnat";
-set @comment="Eglise Notre-Dame de Marsat.";
-
-execute  update_copyrightfr using @right, @comment, @uid0;
-execute  update_copyrightle using @right, @uid0;
-
-/* 2023-08-30 */
-set @uid0 = @base + 30  ;
-set @right = "Unsplash/Dolina Modlitwy";
+set @right = "";
 set @comment="";
+
+execute  update_copyrightfr using @right, @comment, @uid0;
+execute  update_copyrightle using @right, @uid0;
+/* 2023-11-26 */
+set @uid0 = @base +  26 ;
+set @right = "";
+set @comment="";
+
+execute  update_copyrightfr using @right, @comment, @uid0;
+execute  update_copyrightle using @right, @uid0;
+/* 2023-11-27 */
+set @uid0 = @base + 27  ;
+set @right = "";
+set @comment="";
+
+execute  update_copyrightfr using @right, @comment, @uid0;
+execute  update_copyrightle using @right, @uid0;
+/* 2023-11-28 */
+set @uid0 = @base + 28  ;
+set @right = "";
+set @comment="";
+
+execute  update_copyrightfr using @right, @comment, @uid0;
+execute  update_copyrightle using @right, @uid0;
+/* 2023-11-29 */
+set @uid0 = @base + 29  ;
+set @right = "";
+set @comment="";
+
 execute  update_copyrightfr using @right, @comment, @uid0;
 execute  update_copyrightle using @right, @uid0;
 
-/* 2023-08-31 */
-set @uid0 = @base + 31  ;
-set @right = "CC BY 2.0/gnuckx ";
-set @comment="Autel extérieur de l'église Saint-Jacques, Medjugorje.";
+/* 2023-11-30 */
+set @uid0 = @base + 30  ;
+set @right = "";
+set @comment="";
 execute  update_copyrightfr using @right, @comment, @uid0;
 execute  update_copyrightle using @right, @uid0;
 
