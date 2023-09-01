@@ -21,49 +21,49 @@ execute  update_copyrightfr using @right, @comment, @uid0;
 execute  update_copyrightle using @right, @uid0;
 /* 2023-09-03 */
 set @uid0 = @base +  3 ;
-set @right = "";
-set @comment="";
+set @right = "CC BY-SA 4.0/FOSS-the-world ";
+set @comment="Statue de saint Charbel Makhlouf à Faraya, Liban.";
 
 execute  update_copyrightfr using @right, @comment, @uid0;
 execute  update_copyrightle using @right, @uid0;
 /* 2023-09-04 */
 set @uid0 = @base + 4  ;
-set @right = "";
-set @comment="";
+set @right = "CC BY-SA 4.0/Philipp Jakob ";
+set @comment="L'archevêque Philip Anyolo Subira.";
 
 execute  update_copyrightfr using @right, @comment, @uid0;
 execute  update_copyrightle using @right, @uid0;
 /* 2023-09-05 */
 set @uid0 = @base + 5  ;
-set @right = "";
-set @comment="";
+set @right = "CC BY-SA 4.0/JoseolgonCC BY-SA 4.0/Joseolgon";
+set @comment="Azulejos représentant l'apparition de Notre-Dame de Beauraing à Ponte da Barca (Portugal), dans le sanctuaire Notre-Dame-de-la-Paix.";
 
 execute  update_copyrightfr using @right, @comment, @uid0;
 execute  update_copyrightle using @right, @uid0;
 /* 2023-09-06 */
 set @uid0 = @base + 6  ;
-set @right = "";
+set @right = "iStock/Getty Images Plus/witsarut sakorn";
 set @comment="";
 
 execute  update_copyrightfr using @right, @comment, @uid0;
 execute  update_copyrightle using @right, @uid0;
 /* 2023-09-07 */
 set @uid0 = @base +  7 ;
-set @right = "";
+set @right = "iStock/Getty Images Plus/Silvia Zecchin";
 set @comment="";
 
 execute  update_copyrightfr using @right, @comment, @uid0;
 execute  update_copyrightle using @right, @uid0;
 /* 2023-09-08 */
 set @uid0 = @base +  8 ;
-set @right = "";
+set @right = "iStock/Getty Images Plus/doidam10";
 set @comment="";
 
 execute  update_copyrightfr using @right, @comment, @uid0;
 execute  update_copyrightle using @right, @uid0;
 /* 2023-09-09 */
 set @uid0 = @base +  9 ;
-set @right = "";
+set @right = "iStock/Getty Images Plus/rudall30";
 set @comment="";
 
 execute  update_copyrightfr using @right, @comment, @uid0;

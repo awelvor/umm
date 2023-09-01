@@ -9,7 +9,7 @@
 
 set @tstamp = Unix_Timestamp();
 set @crdate = Unix_Timestamp();
-set @jour0 = '2023-08-27';
+set @jour0 = '2023-09-03';
 set @sorting=1;
 set @tablenames = 'tt_content';
 set @sorting_foreign = 1;
