@@ -70,49 +70,49 @@ execute  update_copyrightfr using @right, @comment, @uid0;
 execute  update_copyrightle using @right, @uid0;
 /* 2023-09-10 */
 set @uid0 = @base +10;
-set @right = "";
+set @right = "iStock/Getty Images Plus/Andrzej Rostek";
 set @comment="";
 
 execute  update_copyrightfr using @right, @comment, @uid0;
 execute  update_copyrightle using @right, @uid0;
 /* 2023-09-11 */
 set @uid0 = @base +11   ;
-set @right = "";
-set @comment="";
+set @right = "CC0/wikimedia";
+set @comment="Mgr Fulton J. Sheen évêque de Rochester en octobre 1956.";
 
 execute  update_copyrightfr using @right, @comment, @uid0;
 execute  update_copyrightle using @right, @uid0;
 /* 2023-09-12 */
 set @uid0 = @base + 12  ;
-set @right = "";
-set @comment="";
+set @right = "iStock/Getty Images Plus/Leonid Andronov";
+set @comment="Statue de Notre-Dame-de-France, Le Puy-en-Velay.";
 
 execute  update_copyrightfr using @right, @comment, @uid0;
 execute  update_copyrightle using @right, @uid0;
 /* 2023-09-13 */
 set @uid0 = @base +13   ;
-set @right = "";
-set @comment="";
+set @right = "iStock/Getty Images Plus/Armando Oliveira";
+set @comment="Sanctuaire Notre-Dame de Lourdes.";
 
 execute  update_copyrightfr using @right, @comment, @uid0;
 execute  update_copyrightle using @right, @uid0;
 /* 2023-09-14 */
 set @uid0 = @base + 14  ;
-set @right = "";
-set @comment="";
+set @right = "CC BY-SA 3.0 nl/Hans Peter";
+set @comment="Le prince Albert et sa mère Grace Kelly en septembre 1972.";
 
 execute  update_copyrightfr using @right, @comment, @uid0;
 execute  update_copyrightle using @right, @uid0;
 /* 2023-09-15 */
 set @uid0 = @base + 15  ;
-set @right = "";
+set @right = "iStock/Getty Images Plus/Helena Eriksson";
 set @comment="";
 
 execute  update_copyrightfr using @right, @comment, @uid0;
 execute  update_copyrightle using @right, @uid0;
 /* 2023-09-16 */
 set @uid0 = @base +16   ;
-set @right = "";
+set @right = "Unsplash/Gianna Bonello";
 set @comment="";
 
 execute  update_copyrightfr using @right, @comment, @uid0;
