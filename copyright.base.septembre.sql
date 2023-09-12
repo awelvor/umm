@@ -119,91 +119,92 @@ execute  update_copyrightfr using @right, @comment, @uid0;
 execute  update_copyrightle using @right, @uid0;
 /* 2023-09-17 */
 set @uid0 = @base + 17  ;
-set @right = "";
-set @comment="";
+set @right = "CC0/wikimedia";
+set @comment="Détail de L'Annonciation de Fra Angelico, 1438-1450, musée de San Marco, Florence.";
 
 execute  update_copyrightfr using @right, @comment, @uid0;
 execute  update_copyrightle using @right, @uid0;
 /* 2023-09-18 */
 set @uid0 = @base + 18  ;
-set @right = "";
-set @comment="";
+set @right = "CC BY-SA 4.0/SICDAMNOME";
+set @comment="Notre-Dame d'Akita.";
 
 execute  update_copyrightfr using @right, @comment, @uid0;
 execute  update_copyrightle using @right, @uid0;
 /* 2023-09-19 */
 set @uid0 = @base + 19  ;
-set @right = "";
+set @right = "Unsplash/Jaka Škrlep ";
 set @comment="";
 
 execute  update_copyrightfr using @right, @comment, @uid0;
 execute  update_copyrightle using @right, @uid0;
 /* 2023-09-20 */
 set @uid0 = @base + 20  ;
-set @right = "";
+set @right = "iStock/Getty Images Plus/Solovyova
+";
 set @comment="";
 
 execute  update_copyrightfr using @right, @comment, @uid0;
 execute  update_copyrightle using @right, @uid0;
 /* 2023-09-21 */
 set @uid0 = @base + 21  ;
-set @right = "";
+set @right = "Stock/Getty Images Plus/Maria Marganingsih";
 set @comment="";
 
 execute  update_copyrightfr using @right, @comment, @uid0;
 execute  update_copyrightle using @right, @uid0;
 /* 2023-09-22 */
 set @uid0 = @base + 22  ;
-set @right = "";
-set @comment="";
+set @right = "CC0/wikimedia";
+set @comment="Détail de La Vierge à l'Enfant, par Quentin Metsys, vers 1509, musée des Beaux-Arts de Lyon.";
 
 execute  update_copyrightfr using @right, @comment, @uid0;
 execute  update_copyrightle using @right, @uid0;
 /* 2023-09-23 */
 set @uid0 = @base + 23  ;
-set @right = "";
+set @right = "iStock/Getty Images Plus/jarino47";
 set @comment="";
 
 execute  update_copyrightfr using @right, @comment, @uid0;
 execute  update_copyrightle using @right, @uid0;
 /* 2023-09-24 */
 set @uid0 = @base + 24  ;
-set @right = "";
-set @comment="";
+set @right = "iStock/Getty Images Plus/gianluigibec77";
+set @comment="Détail de la statue surplombant la basilique Notre-Dame-de-la-Merci à Barcelone, maison mère de l'ordre fondé par saint Pierre Noslaque. ";
 
 execute  update_copyrightfr using @right, @comment, @uid0;
 execute  update_copyrightle using @right, @uid0;
 /* 2023-09-25 */
 set @uid0 = @base + 25  ;
-set @right = "";
-set @comment="";
+set @right = "CC BY-SA 4.0/Fernando de Gorocica";
+set @comment="Sanctuaire de Notre-Dame-du-Rosaire de San Nicolás.";
 
 execute  update_copyrightfr using @right, @comment, @uid0;
 execute  update_copyrightle using @right, @uid0;
 /* 2023-09-26 */
 set @uid0 = @base +  26 ;
-set @right = "";
+set @right = "iStock/Getty Images Plus/jchizhe";
 set @comment="";
 
 execute  update_copyrightfr using @right, @comment, @uid0;
 execute  update_copyrightle using @right, @uid0;
 /* 2023-09-27 */
 set @uid0 = @base + 27  ;
-set @right = "";
-set @comment="";
+set @right = "CC0/Fundação Francisco e Jacinta Marto";
+set @comment="Le pape Paul VI devant la statue de Notre-Dame de Fátima le 13 mai 1967.";
 
 execute  update_copyrightfr using @right, @comment, @uid0;
 execute  update_copyrightle using @right, @uid0;
 /* 2023-09-28 */
 set @uid0 = @base + 28  ;
-set @right = "";
-set @comment="";
+set @right = "CC BY-SA 2.0/Korea.net /Korean Culture and Information Service. ";
+set @comment="Le pape François. ";
 
 execute  update_copyrightfr using @right, @comment, @uid0;
 execute  update_copyrightle using @right, @uid0;
 /* 2023-09-29 */
 set @uid0 = @base + 29  ;
-set @right = "";
+set @right = "iStock/Getty Images Plus/spukkato";
 set @comment="";
 
 execute  update_copyrightfr using @right, @comment, @uid0;
@@ -211,7 +212,7 @@ execute  update_copyrightle using @right, @uid0;
 
 /* 2023-09-30 */
 set @uid0 = @base + 30  ;
-set @right = "";
+set @right = "iStock/Getty Images Plus/Audrey Zhuravlev";
 set @comment="";
 execute  update_copyrightfr using @right, @comment, @uid0;
 execute  update_copyrightle using @right, @uid0;
