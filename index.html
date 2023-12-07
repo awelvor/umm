@@ -10,6 +10,81 @@
   <div class="container">
     <h3>UMM</h3>
     <p> en préparation: manuel pour la construction des pages UMM2024</p>
+    
+    <h5>Fichier pages2023.sql</h5>
+/* 2023  uid 150138*/
+set @uid=150138;
+
+set @tstamp = Unix_Timestamp();
+set @crdate = Unix_Timestamp();
+set @doktype=1;
+set @hidden=1;
+set @backend_layout=8;
+set @backend_layout_next_level=6;
+set @cruser_id = 777;
+
+insert into pages
+(pid, doktype, tstamp, crdate, sorting, title, hidden, backend_layout, backend_layout_next_level, cruser_id)
+values
+(@uid, @doktype, @tstamp, @crdate, 1,"Janvier"  ,@hidden,@backend_layout,@backend_layout_next_level,@cruser_id),
+(@uid, @doktype, @tstamp, @crdate, 2,"Février"  ,@hidden,@backend_layout,@backend_layout_next_level,@cruser_id),
+(@uid, @doktype, @tstamp, @crdate, 3,"Mars"     ,@hidden,@backend_layout,@backend_layout_next_level,@cruser_id),
+(@uid, @doktype, @tstamp, @crdate, 4,"Avril"    ,@hidden,@backend_layout,@backend_layout_next_level,@cruser_id),
+(@uid, @doktype, @tstamp, @crdate, 5,"Mai"      ,@hidden,@backend_layout,@backend_layout_next_level,@cruser_id),
+(@uid, @doktype, @tstamp, @crdate, 6,"Juin"     ,@hidden,@backend_layout,@backend_layout_next_level,@cruser_id),
+(@uid, @doktype, @tstamp, @crdate, 7,"Juillet"  ,@hidden,@backend_layout,@backend_layout_next_level,@cruser_id),
+(@uid, @doktype, @tstamp, @crdate, 8,"Aout"     ,@hidden,@backend_layout,@backend_layout_next_level,@cruser_id),
+(@uid, @doktype, @tstamp, @crdate, 9,"Septembre",@hidden,@backend_layout,@backend_layout_next_level,@cruser_id),
+(@uid, @doktype, @tstamp, @crdate,10,"Octobre"  ,@hidden,@backend_layout,@backend_layout_next_level,@cruser_id),
+(@uid, @doktype, @tstamp, @crdate,11,"Novembre" ,@hidden,@backend_layout,@backend_layout_next_level,@cruser_id),
+(@uid, @doktype, @tstamp, @crdate,12,"Décembre" ,@hidden,@backend_layout,@backend_layout_next_level,@cruser_id);
+
+
+/* end of file */
+1) set @uid -> la lape intitulée 2023 a pour uid 150138<br>
+je viens de créer la page 2024, qui reçoit l'UID 177060, valeur qu'il faudra utiliser
+
+Après avoir lancé pages.sql,
+tu passes à install.janvier.sql
+
+<h6>Entete du fichier </h6>
+
+set @doktype = 1;
+set @tstamp = Unix_Timestamp();
+set @crdate = @tstamp;
+set @sorting = 0;
+set @ttsorting=256;
+set @t3origuid = 0;
+set @imagecols=2;
+set @colPos = 0;
+set @tx_srlanguagemenu_languages=0;
+set @CType = 'mask_ummnl';
+set @image=1;
+set @cruser_id = 777;
+
+-- janvier 2023 150140
+set @pid1 = 150140;
+
+
+
+
+Paramètres à considérer:
+ cruser_id : on garde la valeur arbitraire 777
+ pid1 il faut mettre la valeur uid de janvier 2024  (pour janvier 2023 on avait 150140)
+ 
+ ensuit les 4 routines prepare sont à conserver sans aucune modification,
+ 
+ ensuite
+ les dates sont rentrées ec 'dur'
+ donc chaque date en 2023-01-dd est à modifier en 2024-01-dd (avec dd variant de 01 à 31)
+ tu peux alors lancer ce script en sql.
+ 
+ Janvier 2024 ser prêt pour recevoir tes textes dans chacune daes langues.
+ 
+ 
+
+
+
     <p class="col text-bg-primary p-1 text-center">©&nbsp; Philippe Régent &nbsp;- 2024 - Tous&nbsp;droits&nbsp;réservés - <a href="#">Mentions&nbsp;légales</a></p>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" ></script>
